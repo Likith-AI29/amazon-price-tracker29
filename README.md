@@ -15,3 +15,8 @@ A simple Python script to track price drops on Amazon.in using web scraping.
 ```bash
 pip install requests beautifulsoup4
 python price_tracker.py
+
+Note
+Only works for Amazon India (amazon.in)
+
+Amazon structure may change — always test links
