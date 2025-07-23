@@ -1,4 +1,3 @@
-# amazon-price-tracker29
 # Amazon Price Tracker 🛒
 
 A simple Python script to track price drops on Amazon.in using web scraping.
@@ -8,9 +7,11 @@ A simple Python script to track price drops on Amazon.in using web scraping.
 - Alerts if price drops below your target
 
 ## Tools Used:
+-Python 3.x
 - requests
 - BeautifulSoup
 
 ## Run:
 ```bash
+pip install requests beautifulsoup4
 python price_tracker.py
